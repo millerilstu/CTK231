@@ -1,0 +1,39 @@
+a:link {
+  color: #ce1515;
+}
+
+a:visited {
+  color: #1fb61a;
+}
+
+a:hover {
+  color: #bbe916;
+}        
+
+p {
+color:#4918cf;
+background-color: rgb(196, 197, 255)
+}
+
+h1{
+    color:#cf1892;
+    background-color:rgb(255, 196, 252);
+}
+
+h2 {
+  color:#18cf6a;
+    background-color:rgb(196, 255, 228);
+}
+
+h3 {
+  color:#cf6118;
+    background-color:bisque;
+}
+
+.pinkbg {
+background-color: #e6abd2;
+}
+
+.spanexample {
+  color: #c018cf;
+}
