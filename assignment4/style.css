@@ -1,0 +1,52 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+  a:link {
+  color: #ce1515;
+}
+
+a:visited {
+  color: #1fb61a;
+}
+
+a:hover {
+  color: #bbe916;
+}        
+
+p {
+color:#4918cf;
+background-color: rgb(196, 197, 255)
+}
+
+h3,h2,h1 {
+  color:#cf6118;
+  font-style: italic;
+  font-weight: lighter;
+    background-color:bisque;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+.pinkbg {
+background-color: #e6abd2;
+}
+
+.spanexample {
+  color: #c018cf;
+}
+
+.imgbox {
+    border: 10px solid #000000;
+    padding: 5px 5px 5px 5px;
+    background-color: #fffb00
+}
+
+body {
+    background-image: url(forest.JPG);
+}
