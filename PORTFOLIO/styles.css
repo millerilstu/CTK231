@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #1a1a1a;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #1a647a;
+}
+
+/* NAV BUTTONS */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.nav-btn {
+    background: white;
+    border: 2px solid #1a647a;
+    padding: 12px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a647a;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav-btn:hover {
+    background: #e6f5ff;
+}
+
+/* CONTENT BOX */
+.content-box {
+    background: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #1a647a;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+.about-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-layout img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #1a647a;
+    border-radius: 15px;
+}
+
+/* DIGITAL ART */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* CONTACT / PORTFOLIO BUTTONS */
+.big-btn {
+    display: block;
+    width: 250px;
+    margin: 25px auto 0;
+    text-align: center;
+    padding: 15px;
+    background: white;
+    border: 2px solid #1a647a;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a647a;
+}
+
+.big-btn:hover {
+    background: #e6f5ff;
+}
+
+/* CONTACT */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 60%;
+    margin: 25px auto;
+}
+
+.button-grid a {
+    text-align: center;
+    padding: 12px;
+    background: white;
+    border: 2px solid #1a647a;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a647a;
+}
+
+.button-grid a:hover {
+    background: #e6f5ff;
+}
